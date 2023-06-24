@@ -13,7 +13,6 @@
         stage('Test') {
             steps {
                 echo 'Testing the application...'
-                sh './mvnw test -DskipTests'
             }
         }
         stage('Build C# app') {
