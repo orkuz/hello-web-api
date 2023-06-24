@@ -18,7 +18,7 @@
         }
         stage('Build C# app') {
             steps {
-                echo 'Building application artifacts...'
+                echo 'Building application artifacts...' 
             }
         }
         stage('Build and push docker image') {
