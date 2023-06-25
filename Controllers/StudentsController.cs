@@ -21,7 +21,7 @@ namespace hello_web_api.Controllers
 			new Student()
 			{
 				FirstName = "Mateusz",
-				LastName = "Kêdzierski",
+				LastName = "Kedzierski",
 				IndexNumber = 329124,
 				Semester = 2,
 				Email = "mateusz.kedzierski3.stud@pw.edu.pl",
