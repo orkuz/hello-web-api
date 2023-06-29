@@ -26,7 +26,16 @@ namespace hello_web_api.Controllers
 				Semester = 2,
 				Email = "mateusz.kedzierski3.stud@pw.edu.pl",
 				RegistrationDate = new DateTime(2022, 10, 1)
-			}
+			},
+			new Student()
+			{
+				FirstName = "Test",
+				LastName = "Testowy",
+				IndexNumber = 99999,
+				Semester = 1,
+				Email = "test.testowy.stud@pw.edu.pl",
+				RegistrationDate = new DateTime(2022, 10, 1)
+			},
 		};
 
 		public StudentsController(ILogger<StudentsController> logger)
